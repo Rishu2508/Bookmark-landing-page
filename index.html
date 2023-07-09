@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="Font/fontawesome-free-5.14.0-web/css/all.css">
+	<title>Bookmark Manager | Landing Page</title>
+</head>
+<body class="font-poppins">
+	<header class="fixed w-full top-0 z-10">
+		<nav class="flex flex-wrap justify-between py-5 px-5 m:px-14 bg-white bg-opacity-80 backdrop-filter backdrop-blur-md backdrop-saturate">
+			<a href="#">
+				<i class="fa fa-bookmark px-3.5 py-3 bg-blue-500 text-white rounded-full"></i>
+				<span class="uppercase font-bold text-xl pl-2">bookmark</span>
+			</a>
+			<button class="toggler flex justify-center navbar-toggler mx-2 md:hidden uppercase hover:outline-none focus:outline-none">
+				<div class="inline-flex flex-col w-3.5 mr-2">
+					<span class="w-full h-0.5 rounded bg-gray-900 mt-1.5">&nbsp;</span>
+					<span class="w-full h-0.5 rounded bg-gray-900 my-0.8">&nbsp;</span>
+					<span class="w-full h-0.5 rounded bg-gray-900 mb-0.5">&nbsp;</span>
+				</div>
+				MENU
+			</button>
+			<div class="navbar text-center flex md:flex-grow items-center mx-auto md:ml-auto w-full md:w-auto overflow-hidden transition-all duration-300 ease-in-out h-0 md:h-full">
+				<ul class="list-none ml-auto flex flex-grow flex-col md:justify-end items-center text-base uppercase md:flex-row">
+					<li class="text-gray-500 hover:text-gray-700 cursor-pointer text-md md:text-lg px-5 py-2 mr-3">
+						<a href="#feature-section">Features</a>
+					</li>
+					<li class="text-gray-500 hover:text-gray-700 cursor-pointer text-md md:text-lg px-5 py-2 mr-3">
+						<a href="#download-section">Download</a></li>
+					<li class="text-gray-500 hover:text-gray-700 cursor-pointer text-md md:text-lg px-5 py-2 mr-3">
+						<a href="#contact-section">Contact</a></li>
+					<li class="text-lg px-8 py-2.5 bg-red-500 hover:bg-white border-2 border-red-500 focus:outline-none text-white hover:text-red-500 rounded-md cursor-pointer shadow-lg transition-all duration-300 ease-in-out ">Sign Up</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<section class="container md:h-screen lg:mt-20 py-20">
+		<div class="flex flex-col-reverse md:flex-row">
+			<div class="w-full md:w-1/2">
+				<h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight mb-8">A Simple Bookmark Manager</h1>
+				<p class="sm:pr-20 sm:mr-10 mb-8 sm:text-lg text-gray-400 leading-relaxed">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+				<button class="inline-block w-full sm:w-56 sm:mr-2 text-md py-3 text-white bg-blue-500 border-2 border-blue-500 hover:text-blue-500 hover:bg-white focus:outline-none transition-all duration-200 ease-in-out font-semibold rounded-md select-none">Use Extension</button>
+				<button class="inline-block w-full mt-4 sm:w-56 text-md py-3 text-gray-500 bg-white border-2 border-white hover:border-gray-500 focus:border-gray-500 focus:outline-none shadow-lg transition-all duration-200 ease-in-out font-semibold rounded-md select-none">Download</button>
+			</div>
+
+			<!-- Graphical image using html -->
+
+			<div class="w-full md:w-1/2 select-none">
+				<div class="absolute top-0 right-0 w-56 h-56 bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500 transform translate-y-28 -translate-x-6 scale-75 md:scale-100 -z-20 rounded-full"></div>
+				<div class="w-full md:w-5/6 h-96 px-4 py-4 md:ml-12 rounded-3xl bg-gradient-to-br from-gray-700 to-gray-900 border-2 border-gray-600 shadow-2xl z-10 transform scale-75 md:scale-100 flex-shrink-0">
+					<div class="w-full h-full bg-indigo-100 rounded-lg overflow-hidden">
+						<nav class="w-full h-14 bg-indigo-500 px-4 py-2 mb-8">
+							<div class="w-9 h-9 rounded-full bg-white bg-opacity-30 inline-block"></div>
+							<div class="w-28 h-8 ml-2 py-1 inline-block">
+								<div class="span w-full h-1.5 bg-blue-200 bg-opacity-70 rounded-lg"></div>
+								<div class="span w-1/2 h-1.5 mt-2.5 bg-white bg-opacity-20 rounded-lg"></div>
+							</div>
+							<div class="w-9 h-9 rounded-full bg-white bg-opacity-30 inline-block float-right"></div>
+						</nav>
+						<!-- cards -->
+						<div class="max-w-max max-h-max mx-auto flex justify-between shadow-md">
+							<div class="flex flex-col bg-white rounded-lg px-2">
+								<div class="pt-8 pb-2 pl-5 pr-12">
+									<div class="w-9 h-9 rounded-full bg-yellow-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-12">
+									<div class="w-9 h-9 rounded-full bg-green-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-12">
+									<div class="w-9 h-9 rounded-full bg-pink-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-12 mb-4">
+									<div class="w-9 h-9 rounded-full bg-red-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+							</div>
+							<div class="w-32 ml-4 px-5 bg-white rounded-lg shadow-md">
+								<p class="w-full h-1.5 mt-8 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 mb-12 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="absolute w-56 h-56 bg-gradient-to-br from-blue-500 to-green-400 transform -translate-y-48 md:-translate-y-36 -translate-x-4 md:-translate-x-8 scale-75 md:scale-100 -z-20 rounded-full"></div>
+			</div>
+		</div>
+	</section>
+	<section class="container py-20" id="feature-section">
+		<!-- Features heading -->
+		<div class="mx-auto text-center md:w-5/6 mb-10">
+			<h1 class="text-4xl text-gray-800 font-semibold mb-8">Features</h1>
+			<p class="text-gray-400 leading-relaxed">This service aims to make it quick and easy for you to access your regular websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+		</div>
+		<div class="mx-auto max-w-4xl mb-8 text-sm sm:text-base md:text-lg flex text-center border-b-2 border-gray-100">
+			<div class="w-1/3 px-3 py-5 cursor-pointer tab-active" id="tab">Simple Bookmarking</div>
+			<div class="w-1/3 px-3 py-5 cursor-pointer" id="tab">Speedy Searching</div>
+			<div class="w-1/3 px-3 py-5 cursor-pointer" id="tab">Easy Sharing</div>
+		</div>
+		<div class="w-full py-8 relative">
+			<!-- TAB BODY FIRST -->
+			<div class="w-full flex-col md:flex-row flex-wrap hidden animate-slide-right-in" id="tab-body">
+				<div class="w-full sm:w-1/2 pb-6 sm:py-8 select-none">
+					<div class="w-full sm:w-5/6 h-90 mx-auto bg-indigo-100 rounded-lg overflow-hidden relative">
+						<nav class="w-full h-14 bg-gray-800 px-4 py-2 mb-8">
+							<div class="w-9 h-9 rounded-full bg-white bg-opacity-30 inline-block"></div>
+							<div class="w-28 h-8 ml-2 py-1 inline-block">
+								<div class="span w-full h-1.5 bg-white bg-opacity-70 rounded-lg"></div>
+								<div class="span w-1/2 h-1.5 mt-2.5 bg-white bg-opacity-20 rounded-lg"></div>
+							</div>
+							<div class="w-9 h-9 rounded-full bg-white bg-opacity-30 inline-block float-right"></div>
+						</nav>
+						<!-- cards -->
+						<div class="max-w-max max-h-max mx-auto flex justify-between shadow-md">
+							<div class="flex flex-col bg-white rounded-lg px-2">
+								<div class="pt-8 pb-2 pl-5 pr-12">
+									<div class="w-9 h-9 rounded-full bg-yellow-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-12">
+									<div class="w-9 h-9 rounded-full bg-green-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-12">
+									<div class="w-9 h-9 rounded-full bg-pink-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-12 mb-4">
+									<div class="w-9 h-9 rounded-full bg-red-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+							</div>
+							<div class="w-32 ml-4 px-5 bg-white rounded-lg shadow-md">
+								<p class="w-full h-1.5 mt-8 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 mb-12 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+							</div>
+							<div class="text-5xl text-blue-500 absolute bottom-5 right-10 filter drop-shadow-lg">
+								<div class="fa fa-bookmark fa-2x font-thin"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-full sm:w-1/2 h-96 bg-white sm:py-16 sm:pl-2 md:pl-8 md:pr-28">
+					<h1 class="text-gray-800 text-3xl md:text-4xl font-semibold sm:font-meduim leading-relaxed">Bookmark in just One click</h1>
+					<p class="text-gray-500 leading-relaxed my-4 sm:my-6">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+					<a href="#"><button class="text-lg px-8 py-2.5 bg-blue-500 hover:bg-blue-600 border-2 border-blue-500 hover:border-blue-600 text-white hover:text-white rounded-md cursor-pointer shadow-md hover:shadow-lg transition-all duration-300 ease-in-out ">Learn More</button></a>
+				</div>
+			</div>
+			<!-- TAB BODY SECOND -->
+			<div class="w-full flex-col md:flex-row flex-wrap hidden animate-slide-right-in" id="tab-body">
+				<div class="w-full md:w-1/2 h-96 sm:py-8 select-none">
+					<div class="w-full sm:w-5/6 md:w-3/5 h-90 bg-gray-300 rounded-lg md:ml-12">
+						<nav class="w-full h-14 bg-gray-800 px-4 py-2 mb-8 rounded-t-lg">
+							<div class="w-9 h-9 rounded-full bg-white bg-opacity-30 inline-block"></div>
+							<div class="w-28 h-8 ml-2 py-1 inline-block">
+								<div class="span w-full h-1.5 bg-white bg-opacity-70 rounded-lg"></div>
+								<div class="span w-1/2 h-1.5 mt-2.5 bg-white bg-opacity-20 rounded-lg"></div>
+							</div>
+						</nav>
+						<!-- cards -->
+						<div class="max-w-max max-h-max float-right -mr-2 md:-mr-20 transform sm:transform-x-12 flex justify-between">
+							<div class="flex flex-col bg-white rounded-lg shadow-md">
+								<div class="pt-8 pb-2 pl-5 pr-8">
+									<div class="w-8 h-8 rounded-full bg-gray-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-5/6 h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-8">
+									<div class="w-8 h-8 rounded-full bg-gray-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-5/6 h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-8">
+									<div class="w-8 h-8 rounded-full bg-gray-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-5/6 h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-8 mb-4">
+									<div class="w-8 h-8 rounded-full bg-gray-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-5/6 h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- second card -->
+
+							<div class="flex flex-col bg-white rounded-lg shadow-md ml-4 sm:-mr-8">
+								<div class="pt-8 pb-2 pl-5 pr-8">
+									<div class="w-8 h-8 rounded-full bg-gray-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-5/6 h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-8 bg-blue-500 bg-opacity-10">
+								<div class="w-8 h-8 rounded-full bg-blue-500 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-5/6 h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-8">
+								<div class="w-8 h-8 rounded-full bg-gray-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-5/6 h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-8 mb-4">
+									<div class="w-8 h-8 rounded-full bg-gray-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-5/6 h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+							</div>
+							<div class="text-5xl md:text-6xl text-blue-500 absolute bottom-24 right-0 sm:-right-16 filter drop-shadow-lg">
+								<div class="fa fa-search fa-2x font-thin"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-full md:w-1/2 h-96 bg-white py-16 md:pl-8 md:pr-28">
+					<h1 class="text-gray-800 text-3xl md:text-4xl font-semibold sm:font-meduim leading-relaxed">Intelligent Search</h1>
+					<p class="text-gray-500 leading-relaxed my-4 sm:my-6">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+					<a href="#"><button class="text-lg px-8 py-2.5 bg-blue-500 hover:bg-blue-600 border-2 border-blue-500 hover:border-blue-600 text-white hover:text-white rounded-md cursor-pointer shadow-lg transition-all duration-300 ease-in-out ">Learn More</button></a>
+				</div>
+			</div>
+			<!-- TAB BODY THIRD -->
+			<div class="w-full flex-col md:flex-row flex-wrap hidden animate-slide-right-in tab-body-active" id="tab-body">
+				<div class="w-full md:w-1/2 h-96 py-8 select-none ">
+					<div class="w-5/6 h-90 mx-auto bg-indigo-100 rounded-lg overflow-hidden">
+						<nav class="w-full h-14 bg-gray-800 px-4 py-2 mb-8">
+							<div class="w-9 h-9 rounded-full bg-white bg-opacity-30 inline-block"></div>
+							<div class="w-28 h-8 ml-2 py-1 inline-block">
+								<div class="span w-full h-1.5 bg-white bg-opacity-70 rounded-lg"></div>
+								<div class="span w-1/2 h-1.5 mt-2.5 bg-white bg-opacity-20 rounded-lg"></div>
+							</div>
+							<div class="w-9 h-9 rounded-full bg-white bg-opacity-30 inline-block float-right"></div>
+						</nav>
+						<!-- cards -->
+						<div class="max-w-max max-h-max mx-auto flex justify-between shadow-md relative">
+							<div class="flex flex-col bg-white rounded-lg px-4 sm:px-2 ml-2 sm:ml-0">
+								<div class="pt-2 sm:pt-8 sm:pb-2 sm:pl-5 sm:pr-12">
+									<div class="w-8 h-8 rounded-full bg-yellow-400 bg-opacity-70 inline-block"></div>
+									<div class="w-20 sm:w-28 sm:ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="sm:py-2 sm:pl-5 sm:pr-12">
+									<div class="w-8 h-8 rounded-full bg-green-400 bg-opacity-70 inline-block"></div>
+									<div class="w-20 sm:w-28 sm:ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-12 hidden sm:block">
+									<div class="w-9 h-9 rounded-full bg-pink-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+								<div class="py-2 pl-5 pr-12 mb-4 hidden sm:block">
+									<div class="w-9 h-9 rounded-full bg-red-400 bg-opacity-70 inline-block"></div>
+									<div class="w-28 ml-4 inline-block py-2">
+										<div class="w-full h-1.5 bg-gray-500 bg-opacity-80 rounded-lg"></div>
+										<div class="w-1/2 h-1.5 mt-2 bg-gray-500 bg-opacity-20 rounded-lg"></div>
+									</div>
+								</div>
+							</div>
+							<!-- second card -->
+							<div class="w-32 ml-4 px-5 bg-white rounded-lg shadow-md">
+								<p class="w-full h-1.5 mt-8 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 mb-12 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+								<p class="w-full h-1.5 mt-4 bg-gray-500 bg-opacity-40 rounded-lg">&nbsp;</p>
+							</div>
+							<div class="text-4xl sm:text-6xl text-blue-500 absolute bottom-0 sm:bottom-8 right-4 sm:-right-12 filter drop-shadow-lg">
+								<div class="fa fa-share-alt fa-2x"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-full md:w-1/2 h-96 bg-white py-16 md:pl-8 md:pr-28">
+					<h1 class="text-gray-800 text-3xl md:text-4xl font-semibold sm:font-meduim leading-relaxed">Share your bookmarks anywhere</h1>
+					<p class="text-gray-500 leading-relaxed my-4 md:my-6">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+					<a href="#"><button class="text-lg px-8 py-2.5 bg-blue-500 hover:bg-blue-600 border-2 border-blue-500 hover:border-blue-600 text-white hover:text-white rounded-md cursor-pointer shadow-lg transition-all duration-300 ease-in-out ">Learn More</button></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container py-20" id="download-section">
+		<div class="mx-auto text-center md:w-5/6 lg:w-2/5 mb-14">
+			<h1 class="text-4xl text-gray-800 font-semibold mb-6">Download the Extension</h1>
+			<p class="text-gray-400 leading-relaxed px-12">We've got more browsers in the support. let us know if choose to download it.</p>
+		</div>
+		<div class="w-full flex flex-shrink-0 lg:justify-center flex-col items-center content-center lg:flex-row md:px-12">
+			<div class="w-full sm:w-5/6 lg:w-1/3 rounded-xl bg-white shadow-lg px-2 py-8 overflow-x-hidden">
+				<div class="text-center">
+					<img src="img\logo-chrome.svg" alt="" class="mx-auto my-8">
+					<h2 class="text-gray-800 text-xl font-semibold">Add to Chrome</h2>
+					<p class="text-md text-gray-500 my-4">Version 1.0.0</p>
+					<p class="text-gray-300 text-5xl tracking-separator">................</p>
+					<button href="" class="text-lg mt-6 mb-2 ax-auto px-8 py-2.5 bg-blue-500 hover:bg-white border-2 border-blue-500 text-white hover:text-blue-500 rounded-md cursor-pointer shadow-lg transition-all duration-300 ease-in-out font-medium">Install Extension</button>	
+				</div>
+			</div>
+			<div class="w-full sm:w-5/6 lg:w-1/3 rounded-xl bg-white shadow-lg lg:mx-12 my-12 md:my-0 px-2 py-8 overflow-x-hidden transform md:translate-y-12">
+				<div class="text-center">
+					<img src="img\logo-firefox.svg" alt="" class="mx-auto my-8">
+					<h2 class="text-gray-800 text-xl font-semibold">Add to Firefox</h2>
+					<p class="text-md text-gray-500 my-4">Version 1.0.0</p>
+					<p class="text-gray-300 text-5xl tracking-separator">................</p>
+					<button href="" class="text-lg mt-6 mb-2 ax-auto px-8 py-2.5 bg-blue-500 hover:bg-white border-2 border-blue-500 text-white hover:text-blue-500 rounded-md cursor-pointer shadow-lg transition-all duration-300 ease-in-out font-medium">Install Extension</button>		
+				</div>
+			</div>
+			<div class="w-full sm:w-5/6 lg:w-1/3 rounded-xl bg-white shadow-lg px-2 py-8 overflow-x-hidden transform md:translate-y-28">
+				<div class="text-center">
+					<img src="img\logo-opera.svg" alt="" class="mx-auto my-8">
+					<h2 class="text-gray-800 text-xl font-semibold">Add to Opera</h2>
+					<p class="text-md text-gray-500 my-4">Version 1.0.0</p>
+					<p class="text-gray-300 text-5xl tracking-separator">................</p>
+					<button href="" class="text-lg mt-6 mb-2 ax-auto px-8 py-2.5 bg-blue-500 hover:bg-white border-2 border-blue-500 text-white hover:text-blue-500 rounded-md cursor-pointer shadow-lg transition-all duration-300 ease-in-out font-medium">Install Extension</button>		
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pt-36" id="contact-section">
+		<div class="w-full py-16 mx-auto bg-blue-600">
+			<div class="mx-auto text-center w-full px-8 md:w-2/5 pb-4 md:pb-8">
+				<h1 class="text-4xl text-white font-semibold mb-4">Contact Us</h1>
+				<h1 class="text-xl text-white">Stay Up-to-date with what we're doing</h1>
+				<p class="text-blue-100 text-sm leading-relaxed tracking-[0.25rem] py-6 px-12 uppercase">35,000+ Already joined</p>
+			</div>
+			<div class="mx-auto flex flex-wrap justify-center md:pb-16">
+				<input type="text" placeholder="Enter you email address" class="w-72 h-12 md:w-96 md:h-14 px-4 rounded outline-none text-sm">
+				<button href="" class="text-md h-12 md:h-14 mt-4 md:ml-4 md:mt-0 px-4 md:px-8 bg-red-500 hover:bg-white border-2 border-red-500 text-white hover:text-red-500 rounded-md cursor-pointer transition-all duration-300 ease-in-out font-medium outline-none focus:outline-none">Send email</button>		
+			</div>
+		</div>
+	</section>
+	<footer class="w-full bg-gray-800 py-4 flex flex-wrap justify-between">
+		<div class="px-6 pt-2 flex flex-wrap justify-center">
+			<a href="#">
+				<i class="fa fa-bookmark px-3.5 py-3 bg-white text-blue-500 rounded-full"></i>
+				<span class="uppercase font-medium text-xl text-white pl-2">bookmark</span>
+			</a>
+			<div class="text-center ml-auto mt-4 sm:mt-0">
+				<ul class="list-none flex text-base uppercase">
+					<li class="text-gray-500 hover:text-gray-100 cursor-pointer text-sm px-2 py-2 ml-6 transition-all duration-200 ease-in-out">Features</li>
+					<li class="text-gray-500 hover:text-gray-100 cursor-pointer text-sm px-2 py-2 transition-all duration-200 ease-in-out">Download</li>
+					<li class="text-gray-500 hover:text-gray-100 cursor-pointer text-sm px-2 py-2 mr-3 transition-all duration-200 ease-in-out">Contact</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mx-auto sm:mr-20">
+			<ul class="list-none flex text-base uppercase">
+					<li class="cursor-pointer text-lg px-3 py-2">
+						<a href="https://www.facebook.com/rishusagar25">
+							<svg width="30" height="30" class="fill-current text-gray-200 hover:text-indigo-600 transition-all duration-200 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg>
+						</a>
+					</li>
+					<li class="cursor-pointer text-lg px-3 py-2">
+						<a href="https://www.instagram.com/rishuu_2508/">
+							<svg width="30" height="30" class="fill-current text-gray-200 hover:text-pink-500 transition-all duration-200 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+						</a>
+					</li>
+					<li class="cursor-pointer text-lg px-3 py-2">
+						<a href="#">
+							<svg width="30" height="30" class="fill-current text-gray-200 hover:text-blue-500 transition-all duration-200 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		
+		
+	</footer>
+	<div class="w-full bg-gray-900 py-2 text-center">
+		<h1 class="text-white">Created By <a href="https://www.instagram.com/rishuu_2508/" target="_blank"><span class="text-yellow-600 no-underline">@rishuu_2508</span></a></h1>
+	</div>
+<script src="js/Index.js"></script>	
+</body>
+</html>
